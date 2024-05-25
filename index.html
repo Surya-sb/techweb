@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+          <h2 class="logo"><a href="#">A to Z tech</a></h2>
+          <input type="checkbox" id="menu-toggler">
+          <label for="menu-toggler" id="hamburger-btn">
+            <svg viewBox="0 0 24 24" fill="grey" width="24px" height="24px">
+              <path d="M0 0h24v24H0z" fill="none"/>
+              <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+          </label>
+          <ul class="all-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="homepage" id="home">
+        <div class="content">
+          <div class="text">
+            <h1>welcome to our site</h1>
+            <p>
+             Here you can buy any computer and computer related components all at one place</p>
+          </div>
+          <a href="#Products">Products</a>
+        </div>
+      </section>
+
+      <section class="Products" id="Products">
+        <h2>Our Products</h2>
+        <p>The Products the we have in stock has listed below</p>
+        <ul class="cards">
+          <li class="card">
+            <img src="asset/img/Monitor.avif" alt="img">
+            <h3>Monitor</h3>
+            <p>A good viewing display can make the perfect view</p>
+          </li>
+          <li class="card">
+            <img src="asset/img/keyboard.jpg" alt="img">
+            <h3>keyboard</h3>
+            <p>Every key must be clicky for good click </p>
+          </li>
+          <li class="card">
+            <img src="asset/img/computer mouse.jpg" alt="img">
+            <h3>Computer mouse</h3>
+            <p>Smooth and nice clicks </p>
+          </li>
+          <li class="card">
+            <img src="asset/img/Graphic card.jpg" alt="img">
+            <h3>Graphic cards</h3>
+            <p>Boost the performance to next level</p>
+          </li>
+          <li class="card">
+            <img src="asset/img/caaa.jpg" alt="img">
+            <h3>Cabinets</h3>
+            <p>Good looking can show the power</p>
+          </li>
+          <li class="card">
+            <img src="asset/img/lap.jpg" alt="img">
+            <h3>Laptops</h3>
+            <p>Compact and use anywhere</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Here you can know more  about us.</p>
+        <div class="row company-info">
+          <h3>How to order</h3>
+          <p>You can see the the products in our website and add the details about you and the products in the contact us section amd we wil check and ship the product to you. </p>
+        </div>
+        <div class="row mission-vision">
+          <h3>Our Mission</h3>
+          <p>To expand the business to all the place in the world</p>
+          <h3>Our Vision</h3>
+          <p>To give the good and quality products to our valuable customers</p>
+        </div>
+        <div class="row team">
+          <h3>Team</h3>
+          <ul>
+            <li>Surya - Founder and CEO</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="row">
+          <div class="col information">
+            <div class="contact-details">
+              <p>Surya , chennai - 600001</p>
+              <p>Atoz@gmail.com</p>
+              <p>1234567890</p>
+              <p> Monday - Friday: 4:00 AM - 6:00 PM</p>
+              <p>Saturday: 9:00 AM - 5:00 PM</p>
+              <p>Sunday: Closed</p>
+              
+            </div>
+          </div>
+          <div class="col form">
+            <form>
+              <input type="text" placeholder="Name" required>
+              <input type="email" placeholder="Email" required>
+              <textarea placeholder="Message" required></textarea>
+              <textarea placeholder="Product details" required></textarea>
+              <button id="submit" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+</body>
+</html>
